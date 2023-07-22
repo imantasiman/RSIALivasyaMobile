@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/scan"
+
+
+    tools:context=".ScanActivity">
+
+
+
+    <TextView
+        android:id="@+id/scanResultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginBottom="100dp"
+        android:textStyle="bold"
+        android:text=" MENU SCAN QR"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnScan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scanResultTextView"
+        android:text="Scan QR Code"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/BlueNew"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:id="@+id/btnKembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scanResultTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/red"
+        android:textColor="@color/white"
+        android:text="Kembali Ke Menu" />
+
+
+</RelativeLayout>

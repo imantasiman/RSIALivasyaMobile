@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.UasIman" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Color Untuk Warna Botton dan Navigation Bar -->
+        <item name="colorPrimary">@android:color/holo_blue_dark</item>
+        <!-- Color Accent atau untu warna ketikan -->
+        <item name="colorAccent">@android:color/holo_blue_light</item>
+    </style>
+
+</resources>
