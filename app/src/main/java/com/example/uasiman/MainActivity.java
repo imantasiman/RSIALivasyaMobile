@@ -14,7 +14,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 public class MainActivity extends AppCompatActivity {
-    private EditText editTextName, editTextAddress, editTextPhoneNumber;
+    private EditText editTextName, editTextAddress, editTextPhoneNumber, editTextDate;
     private Button buttonSave;
     private ListView listViewClinics;
     private Button btnKembali;
@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         editTextName = findViewById(R.id.editTextName);
         editTextAddress = findViewById(R.id.editTextAddress);
         editTextPhoneNumber = findViewById(R.id.editTextPhoneNumber);
+        editTextDate = findViewById(R.id.editTextDate);
         buttonSave = findViewById(R.id.buttonSave);
         btnKembali = findViewById(R.id.btnKembali);
         listViewClinics = findViewById(R.id.listViewClinics);
@@ -43,15 +44,17 @@ public class MainActivity extends AppCompatActivity {
                 String name = editTextName.getText().toString();
                 String address = editTextAddress.getText().toString();
                 String phoneNumber = editTextPhoneNumber.getText().toString();
+                String date = editTextDate.getText().toString();
 
                 if (!name.isEmpty() && !address.isEmpty() && !phoneNumber.isEmpty()) {
-                    String clinicData = name + ", " + address + ", " + phoneNumber;
+                    String clinicData = name + ", " + address + ", " + phoneNumber+", "+date;
                     clinicList.add(clinicData);
                     clinicAdapter.notifyDataSetChanged();
 
                     editTextName.setText("");
                     editTextAddress.setText("");
                     editTextPhoneNumber.setText("");
+                    editTextDate.setText("");
 
                     Toast.makeText(MainActivity.this, "Data poliklinik berhasil disimpan.", Toast.LENGTH_SHORT).show();
                 } else {

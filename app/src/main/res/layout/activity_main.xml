@@ -13,13 +13,13 @@
         android:orientation="vertical"
         android:padding="16dp">
 
+
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginTop="30dp"
             android:layout_marginBottom="20dp"
             android:src="@drawable/logo" />
-
 
         <TextView
             android:id="@+id/scanResultTextView"
@@ -56,7 +56,8 @@
             android:padding="10dp"
             android:layout_height="43dp"
             android:background="@drawable/edit_text_menu"
-            android:hint="No Telepon" />
+            android:hint="No Telepon"
+            android:inputType="number"/>
 
         <EditText
             android:id="@+id/editTextDate"
