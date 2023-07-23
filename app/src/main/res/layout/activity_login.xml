@@ -47,7 +47,7 @@
         android:text="Login"
         android:textSize="35px" />
     <TextView
-        android:id="@+id/scanResultTextView"
+        android:id="@+id/noLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tidak Dapat Login?"
@@ -55,7 +55,6 @@
         android:textStyle="bold"
         android:textColor="@color/BlueNew"
         android:textSize="35px" />
-
 
 
 </LinearLayout>

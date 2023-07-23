@@ -10,13 +10,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+
         android:padding="16dp">
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="195dp"
-            android:layout_height="200dp"
-            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_marginLeft="55dp"
             android:layout_marginTop="200dp"
             app:srcCompat="@drawable/logolivasya" />
 
