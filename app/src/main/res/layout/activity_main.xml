@@ -58,6 +58,17 @@
             android:background="@drawable/edit_text_menu"
             android:hint="No Telepon" />
 
+        <EditText
+            android:id="@+id/editTextDate"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edit_text_menu"
+            android:ems="10"
+            android:hint="Jadwal Periksa"
+            android:inputType="date" />
+
         <Button
             android:id="@+id/buttonSave"
             android:layout_width="match_parent"
