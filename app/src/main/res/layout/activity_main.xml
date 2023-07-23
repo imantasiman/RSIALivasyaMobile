@@ -65,6 +65,7 @@
             android:padding="10dp"
             android:layout_height="43dp"
             android:layout_marginTop="5dp"
+            android:layout_marginBottom="2dp"
             android:background="@drawable/edit_text_menu"
             android:ems="10"
             android:hint="Jadwal Periksa"

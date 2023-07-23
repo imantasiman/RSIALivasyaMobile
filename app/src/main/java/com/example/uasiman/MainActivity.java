@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
                 updateCalendar();
             }
             private void updateCalendar(){
-                String Format="MM/dd/yy";
+                String Format="dd/MM/yyyy";
                 SimpleDateFormat sdf= new SimpleDateFormat(Format, Locale.US);
                 editTextDate.setText(sdf.format(calendar.getTime()));
             }
@@ -81,7 +81,8 @@ public class MainActivity extends AppCompatActivity {
                 String phoneNumber = editTextPhoneNumber.getText().toString();
                 String date = editTextDate.getText().toString();
 
-                if (!name.isEmpty() && !address.isEmpty() && !phoneNumber.isEmpty()) {
+                if (!name.isEmpty() && !address.isEmpty() && !phoneNumber.isEmpty()
+                && !date.isEmpty()) {
                     String clinicData = name + ", " + address + ", " + phoneNumber+", "+date;
                     clinicList.add(clinicData);
                     clinicAdapter.notifyDataSetChanged();
