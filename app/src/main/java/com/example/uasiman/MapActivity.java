@@ -56,7 +56,7 @@ public class MapActivity extends AppCompatActivity {
 
 
                 // Ganti dengan validasi login sesuai kebutuhan
-                Intent intent = new Intent(MapActivity.this, BerandaActivity.class);
+                Intent intent = new Intent(MapActivity.this, MenuUtamaActivity.class);
                 startActivity(intent);
                 finish();
 

@@ -46,7 +46,7 @@ public class ScanActivity extends AppCompatActivity {
 
 
                 // Ganti dengan validasi login sesuai kebutuhan
-                Intent intent = new Intent(ScanActivity.this, BerandaActivity.class);
+                Intent intent = new Intent(ScanActivity.this, MenuUtamaActivity.class);
                 startActivity(intent);
                 finish();
 

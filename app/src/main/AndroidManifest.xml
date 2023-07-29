@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-
+<uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -24,7 +24,8 @@
         </activity>
         <activity android:name=".LoginActivity"/>
         <activity android:name=".MainActivity"/>
-        <activity android:name=".BerandaActivity"/>
+        <activity android:name=".RegisterActivity"/>
+        <activity android:name=".MenuUtamaActivity"/>
         <activity android:name=".MapActivity"/>
         <activity android:name=".PoliActivity"/>
         <activity android:name=".ScanActivity"/>
